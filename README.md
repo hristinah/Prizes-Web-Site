@@ -43,7 +43,7 @@
 10. След като изображението ти е одобрено от администратор, то ще се появи върху рамката, и  когато мишката е над него, ще показва твоето потребителско име и фн.
 
 ![1](https://user-images.githubusercontent.com/89635038/131635896-7e9004e0-6d6e-4fa6-833f-227feff8fbb1.png)
-
+![2](https://user-images.githubusercontent.com/89635038/131636319-24dab312-945f-4fba-9e82-965e48acdfc3.png)
 ![3](https://user-images.githubusercontent.com/89635038/131635931-17abf242-b8ba-47e4-8933-abe0b240e58b.png)
 
 
