@@ -1,0 +1,312 @@
+html,body 
+{
+    font-family: 'Oswald', sans-serif;
+    color:  #5E4582;
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    overflow: auto;
+}
+
+#available
+{
+  color:rgb(62, 44, 87);
+  position:absolute;
+  top: 110px;
+  left:1070px;
+  width:100px;
+  height: 120px;
+  margin: 0px;
+  padding:8px 0px;
+  z-index: 2;
+  text-align: center;
+  font-size: 24px;
+  line-height:28px; 
+}
+
+#available b 
+{
+  line-height:50px; 
+}
+
+#diamond 
+{
+  background-color: #CEB3F2;
+  border: 5px solid #5E4582;
+  position: absolute;
+  top: 90px;
+  left:1040px;
+  z-index: 1;
+  content: '';
+  height: 150px;
+  width: 150px;
+  transform: rotateX(45deg) rotateZ(45deg);
+}
+
+#separator1
+{
+    position:absolute;
+    top: 130px;
+    width: 100%;
+    min-width: 1300px;
+    height:80px;
+    z-index: -1;
+    background-image: url("bckg1.jpg");
+    background-size: 100px 100%;
+}
+
+#separator2
+{
+    position:absolute;
+    left:1080px;
+    width: 80px; 
+    height:100%;
+    min-height: 1300px;
+    z-index: 0;
+    background-image: url("bckg2.png");
+    background-size: 100% 100px;
+}
+
+#frame 
+{
+    position:absolute;
+    top: 210px;
+    left:50px;
+    width: 1000px;
+    height: 1000px;
+    margin: 10px;
+    border: 5px solid #5E4582;
+}
+
+#admin_input
+{
+    position:absolute;
+    top: 210px;
+    left:150px;
+    width: 1000px;
+    display:none;
+}
+
+h1
+{
+  margin: 0px 0px 10px 0px ;
+  padding: 0px;
+  line-height: 32px;
+}
+
+header h1
+{
+  z-index: -1;
+    font-size: 90px;
+    letter-spacing: 5px;
+    text-align: right;
+    position:absolute;
+    top: 5px;
+    left: 0px;
+    width:1050px;
+    height:100px;
+    margin: 0px ;
+    line-height: 90px;
+}  
+
+footer h1
+{
+    font-size: 24px;
+    text-align: right;
+    position:absolute;
+    top: 1250px;
+    left: 0px;
+    width:1050px;
+    margin: 0px ; 
+}            
+
+#top_right 
+{
+    position:absolute;
+    left:1170px;
+    top:0px;
+}
+
+#log_reg
+{
+  display:none;
+}
+
+#user_info
+{
+  width:160px;
+  background-image: url("bckg3.jpg");
+  background-size: 50% 45%;
+  background-position: 100% 90%;
+  background-repeat: no-repeat;
+  display:none;
+ 
+}
+
+#user_info p
+{
+  display:inline-block;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#user_info p:nth-child(-n+3)
+{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#user_info p:nth-child(3)
+{
+  margin-bottom: 15px;
+}
+#user_input
+{
+    position:absolute;
+    left:1165px;
+    top:220px;
+}
+
+#user_input form
+{
+  border: 2px solid #5E4582;
+  border-radius: 15px;
+  padding:5px;
+}
+
+#user_input button
+{
+  margin:8px 0px;
+}
+
+input,label,form p,select
+{
+    color: rgb(62, 44, 87);
+    font-size: 18px;
+    line-height: 20px;
+    width:160px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus 
+{
+    outline-color:#9E8ABA;
+}
+
+#img_form 
+{
+  display: none;
+  width:170px;
+}
+
+#img_form input
+{
+    font-size: 12px;
+    line-height: 20px;
+    width:160px;
+   
+}
+
+#img_form select
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width:164px;
+    
+}
+
+
+
+select
+{
+    cursor: pointer; 
+}
+
+button
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color:rgb(52, 37, 71);
+    border:2px solid  #5E4582;
+    padding:2px 5px;
+    margin:3px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:rgb(236, 224, 247);
+    box-shadow: 0px 0px 10px #9E8ABA inset;
+    transition-duration: 0.2s;
+}  
+       
+button:hover 
+{
+  background-color: white ;
+}    
+
+#log
+{
+    width:60px;
+}
+
+#reg
+{
+    background-color: rgb(214, 196, 238);
+    box-shadow: 0px 0px 10px #8F6AA8 inset;
+    width:100px;
+}
+
+#reg:hover 
+{
+  background-color: white ;
+} 
+
+#reg_form
+{
+  display: none;
+}
+
+#message{
+  display: none;
+  text-align: center;
+  border: 2px solid #5E4582;
+  border-radius: 15px;
+  padding:5px;
+  margin-bottom: 10px ;
+  width:160px;
+}
+
+#pxlgive, #imgapp, #img
+{
+  width:300px;
+  position: absolute;
+}
+
+#pxlgive
+{
+  top:50px;
+  left:30px;
+}
+
+#imgapp
+{
+  top:50px;
+  left:360px;
+}
+
+#imgapp select
+{
+  width:300px;
+}
+
+#img
+{
+  height:300px;
+  top:80px;
+  left:690px;
+}
+
