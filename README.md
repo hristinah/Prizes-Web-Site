@@ -32,8 +32,8 @@
       4. Когато всички полета във формата са попълнени, може да натиснеш „Добави“.
 6. След като изображението ти е одобрено от администратор, то ще се появи върху рамката, и  когато мишката е над него, ще показва твоето потребителско име и фн.<br>
 
-![1](https://user-images.githubusercontent.com/89635038/131635896-7e9004e0-6d6e-4fa6-833f-227feff8fbb1.png)
-![2](https://user-images.githubusercontent.com/89635038/131636319-24dab312-945f-4fba-9e82-965e48acdfc3.png)
+![0](https://user-images.githubusercontent.com/89635038/132377252-397820e3-c9f7-44c4-9bca-eebea2d2f658.png)
+![1](https://user-images.githubusercontent.com/89635038/132377265-d914d25f-dd8d-496f-9ed3-26ddce8522ec.png)
 
 **За администратора:**<br>
 1. Влез в профила си ( с потребителско име Admin) в горният десен ъгъл.
@@ -46,7 +46,7 @@
 7. Натисни името на изображението, което одобряваш, и натисни “Одобри ”.
 8. Когото си готов, можеш да натиснеш “Отпиши ме ”.<br>
 
-![3](https://user-images.githubusercontent.com/89635038/131635931-17abf242-b8ba-47e4-8933-abe0b240e58b.png)
+![2](https://user-images.githubusercontent.com/89635038/132377284-961bd6cc-ce0f-4d77-ae56-6c588b65f330.png)
 
 ### Описание на програмния код 
 Самите страници са prizes.php и prizes_admin.php, като форматирането им е в style.css.
