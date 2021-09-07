@@ -329,7 +329,6 @@
 
 <body onload="main()">
   <p id="available" title="За да получиш пиксели, се регистрирай,&#010; и изчакай администратора да те одобри за 'награда'.">Твоите пиксели:<br><b id="totalpxl"></b></p>
-  <div id="diamond"></div>
   <div id="separator1"></div>
   <div id="separator2"></div>
   <header>
@@ -380,11 +379,6 @@
 
 
   <div id="frame"></div> 
-
-
-  <footer>
-    <h1>Направено от Христина - 81484</h1>
-  </footer>
 
  <?php
   if(isset($_GET['upload']))

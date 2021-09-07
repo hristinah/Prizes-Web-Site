@@ -227,8 +227,9 @@
               var adm = document.getElementById('admin_input');
               adm.style.display='block';
               </script>";
-                  
             }
+                  
+            
        
   }
   

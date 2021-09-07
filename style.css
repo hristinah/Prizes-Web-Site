@@ -13,35 +13,22 @@ html,body
 {
   color:rgb(62, 44, 87);
   position:absolute;
-  top: 110px;
-  left:1070px;
+  top: 135px;
+  left:1235px;
   width:100px;
-  height: 120px;
+  height: 70px;
   margin: 0px;
-  padding:8px 0px;
+  padding:0px;
   z-index: 2;
   text-align: center;
-  font-size: 24px;
-  line-height:28px; 
+  font-size: 18px;
+  line-height:20px; 
+  background-color:#FFEAA6;
 }
 
 #available b 
 {
-  line-height:50px; 
-}
-
-#diamond 
-{
-  background-color: #CEB3F2;
-  border: 5px solid #5E4582;
-  position: absolute;
-  top: 90px;
-  left:1040px;
-  z-index: 1;
-  content: '';
-  height: 150px;
-  width: 150px;
-  transform: rotateX(45deg) rotateZ(45deg);
+  line-height:30px; 
 }
 
 #separator1
@@ -52,8 +39,9 @@ html,body
     min-width: 1300px;
     height:80px;
     z-index: -1;
-    background-image: url("bckg1.jpg");
-    background-size: 100px 100%;
+    background-image: url("bckg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #separator2
@@ -64,8 +52,9 @@ html,body
     height:100%;
     min-height: 1300px;
     z-index: 0;
-    background-image: url("bckg2.png");
-    background-size: 100% 100px;
+    background-image: url("bckg1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #frame 
@@ -76,7 +65,6 @@ html,body
     width: 1000px;
     height: 1000px;
     margin: 10px;
-    border: 5px solid #5E4582;
 }
 
 #admin_input
@@ -110,21 +98,11 @@ header h1
     line-height: 90px;
 }  
 
-footer h1
-{
-    font-size: 24px;
-    text-align: right;
-    position:absolute;
-    top: 1250px;
-    left: 0px;
-    width:1050px;
-    margin: 0px ; 
-}            
 
 #top_right 
 {
     position:absolute;
-    left:1170px;
+    left:1165px;
     top:0px;
 }
 
@@ -136,7 +114,7 @@ footer h1
 #user_info
 {
   width:160px;
-  background-image: url("bckg3.jpg");
+  background-image: url("bckg2.png");
   background-size: 50% 45%;
   background-position: 100% 90%;
   background-repeat: no-repeat;
@@ -172,8 +150,7 @@ footer h1
 
 #user_input form
 {
-  border: 2px solid #5E4582;
-  border-radius: 15px;
+  border: 2px solid #241736;
   padding:5px;
 }
 
@@ -182,12 +159,24 @@ footer h1
   margin:8px 0px;
 }
 
+input,select
+{
+  border:2px solid  #241736;
+  background-color:#FFEAA6;
+  transition-duration: 0.2s;
+}
+
 input,label,form p,select
 {
     color: rgb(62, 44, 87);
     font-size: 18px;
     line-height: 20px;
     width:160px;
+}
+
+#top_right input
+{
+  width:170px;
 }
 
 input:focus,
@@ -233,13 +222,11 @@ button
     font-size: 18px;
     line-height: 18px;
     color:rgb(52, 37, 71);
-    border:2px solid  #5E4582;
+    border:2px solid  #241736;
     padding:2px 5px;
     margin:3px 0px;
-    border-radius: 10px;
     cursor: pointer;
-    background-color:rgb(236, 224, 247);
-    box-shadow: 0px 0px 10px #9E8ABA inset;
+    background-color:#FFEAA6;
     transition-duration: 0.2s;
 }  
        
@@ -250,20 +237,13 @@ button:hover
 
 #log
 {
-    width:60px;
+    width:55px;
 }
 
 #reg
 {
-    background-color: rgb(214, 196, 238);
-    box-shadow: 0px 0px 10px #8F6AA8 inset;
-    width:100px;
+    width:115px;
 }
-
-#reg:hover 
-{
-  background-color: white ;
-} 
 
 #reg_form
 {
